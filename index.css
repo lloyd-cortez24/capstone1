@@ -1,0 +1,75 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(./images/capstoneBG.png);
+	background-size: cover;
+}
+
+#landing, #projects, #aboutMe, #tools, #contact {
+	font-family: 'Poppins', cursive;
+}
+
+#toolsList {
+	font-family: 'Poppins', cursive;
+	height: 125px;
+	width: 125px;
+}
+
+#navList {
+	font-size: 20px;
+}
+
+#image1 {
+	height: 180px;
+	width: 180px;
+	border-radius: 10rem;
+}
+
+.card {
+	width: 18rem;
+}
+
+#cardTitles {
+	font-weight: 700;
+	font-size: 25px;
+}
+
+h1, h2, h5 {
+	color: white;
+	text-align: center;
+}
+
+#abtMeImg {
+	height: 500px;
+	width: auto;
+}
+
+#titles {
+	font-size: 20px;
+	font-weight: 1000;
+}
+
+#content {
+	font-size: 20px;
+	color: gray;
+}
+
+#sub-container {
+	height: 50vh;
+	width: 75vw;
+}
+
+#sendBtn {
+	border-radius: 5rem;
+	padding: 0.8rem;
+	width: 200px;
+}
+
+#contactImg {
+	height: 75vh;
+}
